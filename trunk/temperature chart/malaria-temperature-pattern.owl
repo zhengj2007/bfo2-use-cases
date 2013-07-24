@@ -1,0 +1,682 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:temperature-pattern="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0030 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0030">
+        <rdfs:label xml:lang="en">has process pattern</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0019"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0031 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0031">
+        <rdfs:label xml:lang="en">process pattern of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0019"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0030"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0033 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0033">
+        <rdfs:label xml:lang="en">has duration</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0034"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0041 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0041">
+        <rdfs:label xml:lang="en">has unit label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000110"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0036"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0042"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0042 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0042">
+        <rdfs:label xml:lang="en">unit label of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000186"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0036"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0044 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0044">
+        <rdfs:label xml:lang="en">is duration of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0033"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0034"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0045"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0045 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0045">
+        <rdfs:label xml:lang="en">is about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0061 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0061">
+        <rdfs:label xml:lang="en">is manifested by temperature measured as</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0019"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0062 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0062">
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0063 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0063">
+        <rdfs:label xml:lang="en">is preceded by</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0062"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0064 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0064">
+        <rdfs:label xml:lang="en">is quality measurement of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0045"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0065 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0065">
+        <rdfs:label xml:lang="en">is quality measured as</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0064"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0040 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0040">
+        <rdfs:label xml:lang="en">has data value</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0019">
+        <rdfs:label xml:lang="en">process pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process pattern is a process that occupies temporal region t and is manifested by quality changes across t.</obo:IAO_0000115>
+        <obo:IAO_0000112>increasing speed process patten x is a process &amp; x occupies temporal region t &amp; the speed of x is continuously increasing across t</obo:IAO_0000112>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0020">
+        <rdfs:label xml:lang="en">temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0019"/>
+        <obo:IAO_0000115>A process pattern that occupies temporal region t and is manifested by temperature changes across t.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0021">
+        <rdfs:label xml:lang="en">constant temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0022">
+        <rdfs:label xml:lang="en">increasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0023">
+        <rdfs:label xml:lang="en">constantly increasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0022"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0024">
+        <rdfs:label xml:lang="en">decreasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0025">
+        <rdfs:label xml:lang="en">accelerated  increasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0022"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0026">
+        <rdfs:label xml:lang="en">decelerated increasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0022"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0027">
+        <rdfs:label xml:lang="en">constantly decreasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0028">
+        <rdfs:label xml:lang="en">accelerated  decreasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0029">
+        <rdfs:label xml:lang="en">decelerated decreasing temperature pattern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0024"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0032">
+        <rdfs:label xml:lang="en">P. falciparum infected temperature profile</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000167"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0034">
+        <rdfs:label xml:lang="en">time datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0044"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0041"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0035">
+        <rdfs:label xml:lang="en">temperature datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0041"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0045"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0036">
+        <rdfs:label xml:lang="en">unit label</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0038">
+        <rdfs:label xml:lang="en">time unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0036"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0039">
+        <rdfs:label xml:lang="en">temperature unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0036"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0043">
+        <rdfs:label xml:lang="en">temperature change rate datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0041"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0045"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0048">
+        <rdfs:label xml:lang="en">organism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0050">
+        <rdfs:label xml:lang="en">rate unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0036"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0053">
+        <rdfs:label xml:lang="en">temperature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0055">
+        <rdfs:label xml:lang="en">Plasmodium falciparum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0048"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0056">
+        <rdfs:label xml:lang="en">Homo sapiens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0048"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0057">
+        <rdfs:label xml:lang="en">temperature change rate unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0050"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0058">
+        <rdfs:label xml:lang="en">increased temperature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0053"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0059">
+        <rdfs:label xml:lang="en">decreased temperature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0053"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0047 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0047">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0038"/>
+        <rdfs:label xml:lang="en">hour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0049 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0049">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0023"/>
+        <rdfs:label xml:lang="en">0.67 C/hr  increasing temperature pattern</rdfs:label>
+        <temperature-pattern:class_0061 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0052"/>
+        <temperature-pattern:class_0033 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0054"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0051 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0051">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0057"/>
+        <rdfs:label xml:lang="en">C per hour</rdfs:label>
+        <obo:IAO_0000115>A rate unit which is a standard measure of temperature changes in degree Celsius in a time of one hour.</obo:IAO_0000115>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0052 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0052">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0043"/>
+        <rdfs:label xml:lang="en">0.67 C per hour</rdfs:label>
+        <temperature-pattern:class_0040 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.67</temperature-pattern:class_0040>
+        <temperature-pattern:class_0041 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0051"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0054 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0054">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0034"/>
+        <rdfs:label xml:lang="en">6 hours</rdfs:label>
+        <temperature-pattern:class_0040 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</temperature-pattern:class_0040>
+        <temperature-pattern:class_0041 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0075 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0075">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0035"/>
+        <rdfs:label xml:lang="en">40 degree C</rdfs:label>
+        <temperature-pattern:class_0040 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</temperature-pattern:class_0040>
+        <temperature-pattern:class_0041 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0076"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0076 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0076">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0039"/>
+        <rdfs:label xml:lang="en">degree Celsius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0077 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0077">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0021"/>
+        <rdfs:label xml:lang="en">40 degree C temperature pattern</rdfs:label>
+        <temperature-pattern:class_0061 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0075"/>
+        <temperature-pattern:class_0033 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0078"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0078 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0078">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0034"/>
+        <rdfs:label xml:lang="en">30 hours</rdfs:label>
+        <temperature-pattern:class_0040 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</temperature-pattern:class_0040>
+        <temperature-pattern:class_0041 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0079 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0079">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0034"/>
+        <rdfs:label xml:lang="en">12 hours</rdfs:label>
+        <temperature-pattern:class_0040 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</temperature-pattern:class_0040>
+        <temperature-pattern:class_0041 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0047"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0080 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0080">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0043"/>
+        <rdfs:label xml:lang="en">0.33 C per hour</rdfs:label>
+        <temperature-pattern:class_0040 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</temperature-pattern:class_0040>
+        <temperature-pattern:class_0041 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0051"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0081 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0081">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0027"/>
+        <rdfs:label xml:lang="en">0.33 C/hr  decreasing temperature pattern</rdfs:label>
+        <temperature-pattern:class_0033 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0079"/>
+        <temperature-pattern:class_0061 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0080"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0082 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0082">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0032"/>
+        <rdfs:label xml:lang="en">P. falciparum infected temperature profile of patient1</rdfs:label>
+        <obo:BFO_0000117 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0049"/>
+        <obo:BFO_0000117 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0077"/>
+        <obo:BFO_0000117 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0081"/>
+        <obo:BFO_0000167 rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0083"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0083 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0083">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/bfo2/temperature-pattern.owl/class_0056"/>
+        <rdfs:label xml:lang="en">patient1</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
